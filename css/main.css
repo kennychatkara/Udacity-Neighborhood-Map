@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: darkolivegreen;
+    background-color: #4E7084;
 }
 
 #container {
@@ -16,7 +16,6 @@ html, body {
     order: 1;
     flex-grow: 1;
     height: 100%;
-    width: 70%;
     position: relative;
 }
 
@@ -26,8 +25,7 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 30%;
-    min-width: 250px;
+    min-width: 300px;
 }
 
 #map {
@@ -78,8 +76,8 @@ html, body {
 #centerMapBtn {
     display: flex;
     align-items: center;
-    border: 2px solid darkolivegreen;
-    background-color: darkolivegreen;
+    border: 2px solid #4E7084;
+    background-color: #4E7084;
     border-radius: 50%;
     bottom: 40px;
     left: 30px;
@@ -159,7 +157,7 @@ html, body {
     text-decoration: underline;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
 
     #container {
         display: block;

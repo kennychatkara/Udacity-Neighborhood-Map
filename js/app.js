@@ -377,3 +377,7 @@ var launchApp = function() {
     viewModel.initialize();
     ko.applyBindings(viewModel);
 };
+
+var mapLoadError = function() {
+    alert('Failed to load the map! Please check your internet connection and refresh the page to try again.');
+};

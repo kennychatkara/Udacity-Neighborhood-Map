@@ -2,7 +2,7 @@
 
 **Description**
 ---------------
-A Neighborhood Map application that plots a set of Seattle, WA location markers onto a Google map. Upon clicking a marker or selecting a location in the related list view, an info window is opened on the map. The info window displays photos (sourced from the Flickr API) and information (sourced from the Wikipedia API) related to the point of interest selected.
+A Neighborhood Map application that plots a set of Seattle, WA location markers onto a Google map. Upon clicking a marker or selecting a location in the related list view, an info window is opened on the map. The info window displays photos (sourced from the Flickr API) and information (sourced from the Wikipedia API) related to the point of interest selected. The application has a responsive design to ensure ease of use on different screen sizes and devices (i.e. desktop, mobile, and tablet).
 
 **3rd Party Tools Used**
 - KnockoutJS MVVM Web Framework

@@ -5,17 +5,18 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div id="container">
-        <div id="mapContainer">
+    <div id="container" class="row">
+        <div id="mapContainer" class="col-8">
             <div id="map"></div>
             <div id="centerMapBtn" data-bind="click: resetMapPosition"">
                 <div id="centerBtnText">Center Map</div>
             </div>
         </div>
-        <div id="listContainer">
+        <div id="listContainer" class="col-4">
             <div id="searchContainer">
                 <input id="searchBox" type="text" data-bind="textInput: searchKey, event: { input: searchForMarker }" placeholder="Search">
             </div>
@@ -33,7 +34,7 @@
     <script src="js/libs/jquery.min.js"></script>
     <script src="js/libs/knockout-3.4.2.js"></script>
     <script src="js/app.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSMdLauabRYuoSjQ6EF2w2kUFDAfF3OmA&callback=launchApp"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSMdLauabRYuoSjQ6EF2w2kUFDAfF3OmA&callback=launchApp" onerror="mapLoadError();"
     async defer></script>
 </body>
 </html>
